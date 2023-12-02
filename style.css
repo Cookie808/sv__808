@@ -41,7 +41,7 @@ a {
 /*------------------window pop-ups----------------*/
 /*about*/
 .cprofile {
-    display: none;
+    display: block;
     color: black;
     z-index: 9999;
     position: fixed;
