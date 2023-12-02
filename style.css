@@ -50,6 +50,7 @@ a {
 }
 .window-body {
     cursor: default;
+    display: fixed;
 }
 .title-bar-text {
     font-family: font98;
@@ -66,6 +67,8 @@ a {
     display: inline-block;
     text-align: left;
     color: black;
+    background-color: red;
+    height: 103px;
 }
 
 /*music-spotify*/
