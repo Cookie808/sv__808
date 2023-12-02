@@ -56,7 +56,7 @@ a {
 }
 .tree-view
 {
-    display: flex;
+    display: fixed;
     font-family: font98;
 }
 .col1 {
