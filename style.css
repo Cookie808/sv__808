@@ -46,7 +46,7 @@ a {
     z-index: 9999;
     position: fixed;
     cursor: move;
-    padding: 20px;
+    padding: 10px;
 }
 .window-body {
     cursor: default;
