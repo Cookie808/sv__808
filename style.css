@@ -1,0 +1,81 @@
+@font-face {
+    font-family: font98;
+    src: url(W95FA.otf);
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.toph {
+    text-align: center;
+}
+
+main {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: font98;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------window pop-ups----------------*/
+/*about*/
+.cprofile {
+    display: none;
+    color: black;
+    z-index: 9999;
+    position: fixed;
+    cursor: move;
+    padding: 20px;
+}
+.window-body {
+    cursor: default;
+}
+.title-bar-text {
+    font-family: font98;
+}
+.tree-view
+{
+    display: flex;
+    font-family: font98;
+}
+.col1 {
+    display: inline-block;
+}
+.col2 {
+    display: inline-block;
+    text-align: left;
+    color: black;
+}
+
+/*music-spotify*/
+
+.jukeboxx{
+    display: none;
+    z-index: index 9999;
+    position: fixed;
+    cursor: move;
+}
+.window-body {
+    background-color: #805048;
+}
